@@ -5,15 +5,20 @@
     list-style: none;
 }
 .About .text-center{
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("image/fbg.jpg") fixed center center;
+    background: linear-gradient(rgba(2, 2, 2, 0.2), rgba(0, 0, 0, 0.2)), url("image/fb.jpg") fixed center center;
     background-size: cover;
-    color: #fff;
+    color: #000;
 }
 .card{
     width: 30px;
-    height: 500px; 
+    height: 500px;
     transition: all 0.01s ease;
     cursor: pointer; 
+}
+.card img{
+    height: 70%;
+    width: 80%;
+    margin-left: 10%;
 }
 .card:hover{
     box-shadow: 4px 6px 6px 2px #e9ecef;
@@ -56,8 +61,8 @@
     font-size: 32px;
     color: white;
 }
-.social li a i:hover{
-    color: #db3620;
+.social li a i:hover{    
+    color: #000;
 }
 .Contact {
     position: absolute;
@@ -82,6 +87,7 @@
 @media only screen and (min-width:150px) and (max-width:767px){
     .Contactus{
         height: 60%;
+        max-height: 80%;
     }
     .Contactus h3{
         margin-top: 5%;
